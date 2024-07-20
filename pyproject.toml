@@ -232,3 +232,8 @@ doc-build = ["doc-generate-files", "doc-spellcheck", "_sphinx_build"]
 _mypy = "mypy tianshou test examples"
 _mypy_nb = "nbqa mypy docs"
 type-check = ["_mypy", "_mypy_nb"]
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+priority = "primary"
